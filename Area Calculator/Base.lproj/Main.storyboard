@@ -50,6 +50,9 @@
                                 <state key="normal" title="Calculate Area">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aTf-AZ-rJy"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUF-ya-Zh5">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -139,6 +142,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="heightTextField" destination="1qd-Ik-Rt5" id="tvl-TN-syq"/>
+                        <outlet property="outputLabel" destination="TUF-ya-Zh5" id="0Tg-dU-p33"/>
+                        <outlet property="widthTextField" destination="ys5-kU-wSS" id="51w-Il-MZY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
